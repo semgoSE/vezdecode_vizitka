@@ -11,7 +11,7 @@ const App = () => {
 	return (
 		<AdaptivityProvider>
 			<AppRoot>
-				<View activePanel={activePanel} popout={popout}>
+				<View activePanel={activePanel}>
 					<Panel id="home">
 						<PanelHeader>Марафон в Туле</PanelHeader>
 						<Div align="center" className="main" style={{ backgroundColor : "#1B3738"}}>
